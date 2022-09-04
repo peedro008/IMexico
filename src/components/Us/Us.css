@@ -1,0 +1,282 @@
+
+
+
+.coin0{
+ 
+    animation: spin 3s ease-in ;
+    background-size: 100%;
+    height: 250px;
+    width: 250px;
+	background-position: center;
+	background-repeat: "no-repeat";
+
+}
+
+    @keyframes spin {
+   	from {
+        -webkit-transform: rotateY(0deg);
+        
+    }
+
+    to {
+        -webkit-transform: rotateY(180deg);
+        
+    }
+
+    to {
+        -webkit-transform: rotateY(360deg);
+       
+    }
+
+
+}    
+
+.coin1 {
+    height: 250px;
+    width: 250px;
+    animation: spin1 4s ease-in ;
+    background-size: 100%;
+	
+	background-position: center;
+	background-repeat: "no-repeat";
+	
+}
+
+    @keyframes spin1 {
+    from {
+        -webkit-transform: rotateY(0deg);
+        
+    }
+
+    to {
+        -webkit-transform: rotateY(180deg);
+        
+	
+    }
+
+    to {
+        -webkit-transform: rotateY(360deg);
+        
+    }
+
+
+}    
+
+
+.coin2 {
+    height: 250px;
+    width: 250px;
+    animation: spin2 5s ease-in ;
+    background-size: 100%;
+	
+	background-position: center;
+	background-repeat: "no-repeat";
+	
+}
+
+    @keyframes spin2 {
+    from {
+        -webkit-transform: rotateY(0deg);
+        
+    }
+
+    to {
+        -webkit-transform: rotateY(180deg);
+        
+    }
+
+    to {
+        -webkit-transform: rotateY(360deg);
+        
+    }
+
+
+}    
+
+.coin3 {
+    height: 250px;
+    width: 250px;
+    animation: spin3 6s ease-in ;
+    background-size: 100%;
+	
+	background-position: center;
+	background-repeat: "no-repeat";
+	
+}
+
+    @keyframes spin3 {
+   from {
+        -webkit-transform: rotateY(0deg);
+        
+    }
+
+    to {
+        -webkit-transform: rotateY(180deg);
+        
+    }
+
+   to  {
+        -webkit-transform: rotateY(360deg);
+        
+    }
+
+
+}    
+
+
+
+
+.coinD {
+    height: 200px;
+    width: 200px;
+
+    background-size: cover;
+	
+	background-position: center;
+	background-repeat: "no-repeat";
+	
+
+}
+
+    @keyframes spinD {
+   	from {
+        -webkit-transform: rotateY(0deg);
+        
+    }
+
+    to {
+        -webkit-transform: rotateY(180deg);
+        
+    }
+
+    to {
+        -webkit-transform: rotateY(360deg);
+        
+    }
+
+
+}    
+.coinD:hover{
+    animation: spinD 1s ease-in ;
+    
+}
+
+
+
+
+
+.coinD1 {
+    min-height: 300px;
+    min-width: 270px;
+
+    background-size: 100%;
+	
+	background-position: center;
+	background-repeat: "no-repeat";
+	
+}
+
+    @keyframes spinD1 {
+    from {
+        -webkit-transform: rotateY(0deg);
+        
+    }
+
+    to {
+        -webkit-transform: rotateY(180deg);
+        
+	
+    }
+
+    to {
+        -webkit-transform: rotateY(360deg);
+        
+    }
+
+
+}   
+.coinD1:hover{
+    animation: spinD1 1s ease-in ;
+    
+} 
+
+.coinD2 {
+    min-height: 300px;
+    min-width: 270px;
+  
+    background-size: 100%;
+	
+	background-position: center;
+	background-repeat: "no-repeat";
+	
+}
+
+    @keyframes spinD2 {
+    from {
+        -webkit-transform: rotateY(0deg);
+        
+    }
+
+    to {
+        -webkit-transform: rotateY(180deg);
+        
+    }
+
+    to {
+        -webkit-transform: rotateY(360deg);
+        
+    }
+
+
+}    
+.coinD2:hover{
+    animation: spinD2 1s ease-in ;
+    
+} 
+
+.coinD3 {
+    min-height: 300px;
+    min-width: 270px;
+ 
+    background-size: 100%;
+	
+	background-position: center;
+	background-repeat: "no-repeat";
+	
+}
+
+    @keyframes spinD3 {
+   from {
+        -webkit-transform: rotateY(0deg);
+        
+    }
+
+    to {
+        -webkit-transform: rotateY(180deg);
+        
+    }
+
+   to  {
+        -webkit-transform: rotateY(360deg);
+        
+    }
+
+
+}    
+.coinD3:hover{
+    animation: spinD3 1s ease-in ;
+    
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+

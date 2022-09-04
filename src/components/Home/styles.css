@@ -1,0 +1,124 @@
+.homeslide {
+    /* background-image: url("../../images/home1.png"); */
+    height: fit-content;
+
+    /* backface-visibility: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: slideBg 80s linear  infinite 0s;
+    animation-timing-function: ease-in-out; */
+}
+
+/* 
+@keyframes slideBg {
+    0% {
+      background-image: url("../../images/bg1.png"), url("../../images/bg2.png");
+    }
+    25% {
+        background-image: url("../../images/bg2.png"), url("../../images/bg3.png");
+      }
+      50% {
+        background-image: url("../../images/bg3.png"), url("../../images/bg4.png");
+      }
+      75% {
+        background-image: url("../../images/bg4.png"),  url("../../images/bg1.png");
+      }
+      
+      
+} */
+.Contactarme:hover{
+  background: linear-gradient(180deg, #FFC803 0%, #F39400 100%);;
+
+}
+.banner{
+  display: block;
+
+    -webkit-animation: fadeInFromNone 1.5s ease-out;
+    -moz-animation: fadeInFromNone 1.5s ease-out;
+    -o-animation: fadeInFromNone 1.5s ease-out;
+    animation: fadeInFromNone 1.5s ease-out;
+  
+}
+@-webkit-keyframes fadeInFromNone {
+  0% {
+      display: none;
+      opacity: 0;
+  }
+
+  1% {
+      display: block;
+      opacity: 0;
+  }
+
+  100% {
+      display: block;
+      opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeInFromNone {
+  0% {
+      display: none;
+      opacity: 0;
+  }
+
+  1% {
+      display: block;
+      opacity: 0;
+  }
+
+  100% {
+      display: block;
+      opacity: 1;
+  }
+}
+
+@-o-keyframes fadeInFromNone {
+  0% {
+      display: none;
+      opacity: 0;
+  }
+
+  1% {
+      display: block;
+      opacity: 0;
+  }
+
+  100% {
+      display: block;
+      opacity: 1;
+  }
+}
+
+@keyframes fadeInFromNone {
+  0% {
+      display: none;
+      opacity: 0;
+  }
+
+  1% {
+      display: block;
+      opacity: 0;
+  }
+
+  100% {
+      display: block;
+      opacity: 1;
+  }
+}
+
+.scrollbar::-webkit-scrollbar{
+
+  
+  height: 6px;
+  
+
+}
+/* .scrollbar::-webkit-scrollbar-track {
+  background: red;
+} */
+.scrollbar::-webkit-scrollbar-thumb {
+  background: rgb(177, 175, 175);
+  height: 6px;
+  border-radius: 10px;
+}
